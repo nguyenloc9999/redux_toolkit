@@ -34,7 +34,7 @@ const ProductManagement = () => {
                     <>
                         <Popconfirm
                             placement="topLeft"
-                            title={"Ban co chac chan muon xoa khong?"}
+                            title={"Bạn có chắc chắn muốn xóa không?"}
                             onConfirm={() => confirm(id)}
                             okText="Yes"
                             cancelText="No"

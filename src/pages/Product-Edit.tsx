@@ -36,7 +36,7 @@ const ProductEdit = () => {
 
     return (
         <div className="max-w-4xl mx-auto">
-            <h2 className="font-bold text-2xl mb-4">Cập nhật sản phẩm : tên sản phẩm</h2>
+            <h2 className="font-bold text-2xl mb-4">Cập nhật sản phẩm</h2>
             {isLoading ? (
                 <Skeleton />
             ) : (
